@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F7F7F7;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.carousel-inner{
+    text-align: center;
+}
+
+.carousel-inner p img{
+    width: 30px;
+    height: 19px;
+    margin-right: 7px;
+    border-radius: 1px;
+}
+
+.carousel-control-prev-icon , .carousel-control-next-icon{
+    width: 15px;
+    height: 15px;
+    z-index: 2;
+}
+
+.carousel-control-prev-icon{
+    margin-left: 160px;
+}
+
+.carousel-control-next-icon{
+    margin-right: 160px;
+}
+
+#carouselExampleControls{
+    background-color: #1a1c20;
+    border-top: 1px solid #1a1c20;
+    border-bottom: 1px solid #1a1c20;
+}
+
+.carousel-item p{
+    color: floralwhite;
+    justify-content: center;
+    margin: 8px;
+}
+
+.cover_div{
+    margin: 50px;
+    margin-bottom: 100px;
+}
+
+.cover_img{
+    width: 700px;
+    height: 550px;
+}
+
+.text{
+    padding: 10px;
+    padding-top: 130px;
+    margin-right: 50px;
+}
+
+.text a{
+    color: black;
+
+}
+
+.nav, a{
+    --bs-nav-link-color:var(--bs-nav-link-color)
+}
+
+.row h1{
+    text-align: center;
+}
+
+.grid{
+    display: flex;
+    margin-left: 90px;
+}
+
+.g-col-6 p{
+
+    overflow: hidden;
+    justify-content: left;
+    align-items: flex-start;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.logos{
+    display: flex;
+}
+
+.logo_img{
+        width: 175px;
+        height: 75px;
+}
+
+.logo_img2{
+    margin-top: 8px;
+    width: 175px;
+    height: 65px;
+}
+
+.card{
+    margin: 5px;
+}
+
+.row{
+    margin-bottom: 30px;
+    margin-left: 1.4%;
+}
+
+/* Image Zoom In HERE */
+
+.img-hover-zoom {
+    height: 100%; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.3);
+  }
+
+
+  /* Colorize Zooming In */
+
+.img-hover-zoom--colorize {
+    transition: transform .5s, filter 1.5s ease-in-out;
+    filter: grayscale(100%);
+  }
+  
+  /* The Transformation */
+  .img-hover-zoom--colorize:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+  }
+
+
+  /* Footer Css Here */
+
+  .footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
